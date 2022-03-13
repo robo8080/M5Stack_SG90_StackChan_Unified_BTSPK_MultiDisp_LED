@@ -25,8 +25,8 @@
 #include <M5UnitOLED.h>
 #include <M5UnitLCD.h>
 
-#define USE_SD_UPDATER
-//#ifdef USE_SD_UPDATER
+//#define USE_SD_UPDATER
+#ifdef USE_SD_UPDATER
 #define SDU_APP_NAME "SG90_StackChan_BTSPK_LED"
 #include <M5StackUpdater.h>
 #endif
